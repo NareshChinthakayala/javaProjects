@@ -1,5 +1,6 @@
 package com.nt.Java8;
 
+import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
 public class PredicateExample {
@@ -16,6 +17,8 @@ public class PredicateExample {
 		if(o.test(name)) {
 			System.out.println(name);
 		}
+		BiPredicate<Integer, Integer>bp=(i,j)->i+j>=20;
+	   System.out.println(bp.test(14,9));	
 	}
 	}
 
