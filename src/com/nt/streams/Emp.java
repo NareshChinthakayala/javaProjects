@@ -5,7 +5,7 @@ import java.util.List;
 
 class Emp1 {
 	String name;
-
+String n;
 	public Emp1(String name) {
 		super();
 		this.name = name;
