@@ -20,5 +20,7 @@ public class Arrays1 {
 	void meth1() {
 		System.out.println("meth 1 addedd");
 	}
-
+    void meth2() {
+    	System.out.println("meth2 added");
+    }
 }
