@@ -15,6 +15,10 @@ public class Arrays1 {
 			}
 			System.out.println(n1[i]);
 	}
+		
+	}
+	void meth1() {
+		System.out.println("meth 1 addedd");
 	}
 
 }
