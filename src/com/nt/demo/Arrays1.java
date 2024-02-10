@@ -23,4 +23,8 @@ public class Arrays1 {
     void meth2() {
     	System.out.println("meth2 added");
     }
+    void meth3()
+    {
+    	System.out.println("meth3 added");
+    }
 }
